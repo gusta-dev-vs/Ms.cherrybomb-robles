@@ -40,6 +40,39 @@
     align-items: center;
 }
 
+.navegador{
+  background-image: linear-gradient(rgb(39, 243, 21), yellow);
+}
+
+.imagenproducto{
+transform: translate(-21px, 80px);
+}
+
+.propaganda{
+  transform: translate(410px);
+}
+
+.iframe{
+  transform: translate(240px);
+}
+
+@keyframes aparecer {
+   0% {opacity: 100%}
+   25% {opacity: 75%}
+   50% {opacity: 50%}
+   75% {opacity: 25%}
+   100% {opacity: 0%}
+}
+
+.beta{
+  animation-name: aparecer;
+  animation-delay: 5s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
 .products {
   margin: auto;
   padding: 5px;
